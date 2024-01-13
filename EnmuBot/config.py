@@ -13,9 +13,9 @@ class Config(object):
     API_ID = 17807190  
     API_HASH = "87d7db377d986df687a32d8230314e7f"
     ARQ_API = "RVLOWH-KMDHXW-QQCPAC-EFICND-ARQ"
-    TOKEN = "6750548261:AAEmJHpXVkFI7y45FEn_3cKHomBxOkOBS8c"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    BOT_TOKEN = getenv("BOT_TOKEN")  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     BOT_ID = 5222559003
-    OWNER_ID = 2005266280  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = int(getenv("OWNER_ID",none))  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "HereShivaa"
     SUPPORT_CHAT = "ALEXA_X_SUPPORT"  # Your own group for support, do not add the @
     BOT_USERNAME = "ALEXAPROBOT"
