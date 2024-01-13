@@ -88,21 +88,21 @@ def get_readable_time(seconds: int) -> str:
 
 buttons = [
     [
- InlineKeyboardButton(text="Add Me To Your Groups", url="http://t.me/Enmu_kizuki_bot?startgroup=true"),],      
- [InlineKeyboardButton(text="Support", url="https://t.me/TitanHeadQuaters"),
- InlineKeyboardButton(text="System Stats", callback_data="stats_callback"),],
-[InlineKeyboardButton(text="Source Code", url="https://github.com/CodersXGuild/Enmu")]]
+ InlineKeyboardButton(text="⚡sᴜᴍᴍᴏɴ ᴍᴇ ʙᴀʙᴇ ⚡", url="https://t.me/alexaprobot?startgroup=true"),],      
+ [InlineKeyboardButton(text="🔹sᴜᴘᴘᴏʀᴛ🔹", url="https://t.me/alexa_x_support"),
+ InlineKeyboardButton(text="🔧sʏsᴛᴇᴍ🔧", callback_data="stats_callback"),],
+[InlineKeyboardButton(text="💫ᴜᴘᴅᴀᴛᴇs💫", url="https://t.me/strangers_bots")]]
 
-STAMRT_IMG = 'https://telegra.ph/file/a6e714c062c93e907c4c7.jpg'
+STAMRT_IMG = 'https://te.legra.ph/file/e9c090f8e084e0606dacd.jpg'
 
-SP_PHOTO = "https://telegra.ph/file/3872501d73ccaf27f3796.jpg"
+SP_PHOTO = "https://telegra.ph/file/99c8370d64b59ff87adc9.jpg"
 
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
 DONATE_STRING = """ɪ ᴀᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ 🫰"""
 
-PAPA_ARRIVED = 'https://telegra.ph/file/3872501d73ccaf27f3796.jpg'
+PAPA_ARRIVED = 'https://telegra.ph/file/1f9acc8c918b992a910e5.jpg'
 
 IMPORTED = {}
 MIGRATEABLE = []
