@@ -12,7 +12,7 @@ from telethon import __version__ as THV
 from platform import python_version
 from pyrogram import __version__ as PYRV
 
-ALIVE_PH = "https://graph.org/file/ce6569ebfc97398d8ee54.jpg"
+ALIVE_PH = "https://telegra.ph/file/99c8370d64b59ff87adc9.jpg"
 
 @pbot.on_message(filters.command('alive'))
 async def alive(_,message:Message):
@@ -20,8 +20,8 @@ async def alive(_,message:Message):
                       caption = ("I'm alive Running on \nPython - `{}`\nPTB Version - `{}`\nTelethon Version - `{}`\nPyrogram Version - `{}`").format(python_version(),PTBV,THV,PYRV),
                                             reply_markup = InlineKeyboardMarkup(
                                                   [
-                                                        [ InlineKeyboardButton (text = 'Support' , url = 'telegram.dog/Titanheadquaters')],
-                                                        [InlineKeyboardButton (text = 'Help' , url = 't.me/Enmu_kizuki_bot?start=help')]]))
+                                                        [ InlineKeyboardButton (text = 'Support' , url = 'https://t.me/strangers_bots')],
+                                                        [InlineKeyboardButton (text = 'Help' , url = 't.me/alexaprobot?start=help')]]))
                                                         
                                                         
                                                         
