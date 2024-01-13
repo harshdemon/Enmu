@@ -17,8 +17,8 @@ class Config(object):
     BOT_ID = 5222559003
     OWNER_ID = 2005266280  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Lost_Emotion"
-    SUPPORT_CHAT = "Enmu_chat_Support"  # Your own group for support, do not add the @
-    BOT_USERNAME = "Enmu_KIZUKI_BOT"
+    SUPPORT_CHAT = "ALEXA_X_SUPPORT"  # Your own group for support, do not add the @
+    BOT_USERNAME = "ALEXAPROBOT"
     JOIN_LOGGER = (
         -1001774850421
     )  # Prints any new group the bot is added to, prints just the name and ID.
