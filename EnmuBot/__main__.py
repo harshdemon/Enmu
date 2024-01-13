@@ -228,7 +228,7 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
                 STAMRT_IMG,
-                caption = "<b>Hello {} </b>\nI'm an Anime-Themed Group Management Robot\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n<b>Alive Since:</b> <code>{}</code>\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\nHit /help to get list of possible commands.".format(
+                caption = "<b>Hello {} </b>\nI'm ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ + ᴠᴄ ʙᴏᴛ\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n<b>ᴀʟɪᴠᴇ sɪɴᴄᴇ :</b> <code>{}</code>\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\nHit /help ᴛᴏ ɢᴇᴛ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴏғ ᴀʟᴇxᴀ.".format(
                     escape_markdown(first_name),
                     escape_markdown(uptime)),
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -236,7 +236,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        ENMUSTART = "https://te.legra.ph/file/90b49303716084ccb7f98.mp4"
+        ENMUSTART = "https://telegra.ph/file/5d13799b80e1278dc11ad.mp4"
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
            ENMUSTART, caption= "<b> Hello {} \nI Am 𝙰𝚕𝚒𝚟𝚎 𝚜𝚒𝚗𝚌𝚎</b>: <code>{}</code>".format(
@@ -252,7 +252,7 @@ def start(update: Update, context: CallbackContext):
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                          text="Help", url=f"https://t.me/enmu_kizuki_bot?start=help"
+                          text="Help", url=f"https://t.me/alexaprobot?start=help"
                         ),  
                     ]
                 ]
@@ -326,7 +326,7 @@ def bot_sys_stats_enmu():
     users = sql.num_users()
     chats = sql.num_chats()
     stats = f"""
-➢ Enmu Current System Stats
+➢ Alexa Current System Stats
 ────────────────────────
 • UPTIME: {formatter.get_readable_time((bot_uptime))}
 • BOT: {round(process.memory_info()[0] / 1024 ** 2)} MB
@@ -737,7 +737,7 @@ if __name__ == "__main__":
   
   pbot.start()
   pbot.send_photo(-1001718636011,
-                  photo = "https://telegra.ph/file/3872501d73ccaf27f3796.jpg",
+                  photo = "https://te.legra.ph/file/e9c090f8e084e0606dacd.jpg",
 
                  reply_markup = IKM(
                  [
